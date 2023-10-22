@@ -1,50 +1,61 @@
 body {
-  font-family: "Cormorant", serif;
+  font-family: Cormorant, serif;
 }
-
-.navbar {
-  display: inline-flex;
-  margin-left: 10px;
-  width: 100%;
-}
-
 h1 {
-  width: fit-content;
-  margin: 0;
-  font-weight: 400;
-  text-align: center;
-  padding: 5px 0px;}
+  display: inline-block;
+  font-weight: 300;
+  margin: 0 32px 0 0;
+}
 
+.links {
+  display: inline-block;
+}
+
+.links li {
+  display: inline-block;
+}
+
+.links a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 8px;
+}
 
 .links ul {
-  display: inline-flex;
-  list-style: none;
-  gap: 8px;
-  align-items: center;
-  font-size: 20px;
-  margin: 15px 0px;
+  padding: 0;
+}
+.navbar {
+  margin: 32px;
 }
 
-.links li a {
-  text-decoration: none;
-  color: #000;
+a.active {
+  border-bottom: 1px solid black;
+}
+.gallery {
+  padding: 16px;
+}
+.card {
+  width: 49.75%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 16px;
 }
 
-.links ul li:first-of-type {
-  text-decoration: underline;
-}
-
-img {
-  width: 40%;
+.card img {
   height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card h2 {
+  display: inline-block;
+  margin: 8px 0 16px 0;
+  font-weight: 300;
 }
 
 
-/* Images:
-
-
-
-
+/* 
 About Text: 
 
 Designing, making, and selling goods of timeless design and uncompromising
