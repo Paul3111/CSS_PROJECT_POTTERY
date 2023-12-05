@@ -86,3 +86,15 @@ a.active {
   padding-bottom: 8px;
   margin-top: 0;
 }
+
+@media only screen and (max-width: 1024px) {
+  .gallery {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gallery .card {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
